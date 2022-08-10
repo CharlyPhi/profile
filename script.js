@@ -1,13 +1,13 @@
-// Picture swaping onclick
 const zob = document.getElementById("kitchen_pic");
 const zib = document.getElementById("hi");
 const dogUrl = "https://dog.ceo/api/breed/";
 let breed = "";
 const dogs = "";
-let input = document.getElementById("i1ch");
+let input = document.getElementById("dog");
+
+// Image swaping onclick
 
 const changImg = function (a) {
-  console.log(a.src = "images/Rafale1.jpg");
   if ((a.src = "images/Rafale1.jpg")) {
     a.src = "images/Rafale2.jpg";
   } else {
@@ -18,7 +18,6 @@ const changImg = function (a) {
 // Bubble swaping onclick
 
 const changTxt = function (a) {
-  console.log(zib);
   a.innerHTML = "<h2> Did you say treat ?!</h2>";
 };
 
