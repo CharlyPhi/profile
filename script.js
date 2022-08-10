@@ -31,7 +31,7 @@ const fetchDogos = async () => {
     const jsonResponse = await response.json();
     const dogs = jsonResponse.message;
     const random = Math.floor(Math.random() * dogs.length);
-    document.getElementById("dog").src = dogs[random];
+    document.getElementById("chien").src = dogs[random];
     return dogs;
   }
 };
