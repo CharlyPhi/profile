@@ -1,0 +1,53 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 120px) {
+
+  /* For a screen < 960px, this CSS will be read */
+  * {
+    background-color: blue;
+  }
+}
+
+.cuisine img {
+  width: 15rem;
+  border: solid 2px black;
+  text-align: left;
+  margin: 1.5rem;
+}
+
+.cuisine img:hover {
+  border: solid 2px grey;
+  margin: 1.5rem;
+}
+
+.bulle {
+  background: #120fcc;
+  color: rgb(38, 146, 196);
+  display: inline-block;
+  border-radius: 2rem;
+  font-size: 14px;
+  line-height: 4rem;
+  margin-bottom: 1rem;
+  padding: 0 1rem;
+  position: relative;
+  text-align: center;
+  vertical-align: top;
+  min-width: 7px;
+  margin: 1rem 2rem;
+}
+
+.bulle:after {
+  border: 1em solid rgba(0, 0, 0, 0);
+  border-top-color: #120fcc;
+  content: "";
+  margin-left: -3em;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  width: 0;
+  height: 0;
+}
