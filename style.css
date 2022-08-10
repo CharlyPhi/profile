@@ -2,6 +2,7 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  /* border: solid 2px red; */
 }
 
 @media (max-width: 120px) {
@@ -12,37 +13,50 @@
   }
 }
 
-.cuisine img {
+h1 {
+  font-family: Oleo Script Swash Caps;
+}
+
+span {
+  color: white;
+}
+
+h2 {
+  font-size: medium;
+}
+
+.raf img {
   width: 15rem;
   border: solid 2px black;
-  text-align: left;
   margin: 1.5rem;
 }
 
-.cuisine img:hover {
+.raf img:hover {
   border: solid 2px grey;
   margin: 1.5rem;
 }
 
-.bulle {
-  background: #120fcc;
+
+.buble {
+  background: #1c1c1f;
   color: rgb(38, 146, 196);
   display: inline-block;
   border-radius: 2rem;
+
   font-size: 14px;
-  line-height: 4rem;
-  margin-bottom: 1rem;
-  padding: 0 1rem;
+  line-height: 4em;
+  margin-bottom: 1em;
+  padding: 0 1em;
   position: relative;
   text-align: center;
   vertical-align: top;
-  min-width: 7px;
+  min-width: 7em;
   margin: 1rem 2rem;
 }
 
-.bulle:after {
+.buble:after {
   border: 1em solid rgba(0, 0, 0, 0);
-  border-top-color: #120fcc;
+  border-top-color: #04040a;
   content: "";
   margin-left: -3em;
   position: absolute;
@@ -50,4 +64,12 @@
   left: 50%;
   width: 0;
   height: 0;
+}
+
+
+#dog {
+  display: flex;
+
+  text-align: left;
+  margin: 1.5rem;
 }
